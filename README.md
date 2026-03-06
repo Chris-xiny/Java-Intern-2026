@@ -7,20 +7,9 @@
 
 # 技术栈
 JAVA
-
+Maven
 
 -------------------------------------------
 
 ## 项目结构
-week1: Review Object-Oriented Programming and Set
-
-
--------------------------------------------
-## 本周计划（Week 1）
-周一：面向对象
-周二：面向对象
-周三：面向对象
-周四：
-周五：
-周六：
-周日：
+week1: Review Object-Oriented Programming,Set,Maven

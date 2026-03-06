@@ -1,4 +1,4 @@
-package com.learning.Week1.OOP_Practice.b;
+package com.xin.demo_02;
 
 public class Citizen {
     String name;
