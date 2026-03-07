@@ -12,4 +12,5 @@ Maven
 -------------------------------------------
 
 ## 项目结构
-week1: Review Object-Oriented Programming,Set,Maven
+week1: JAVA面向对象与异常处理,接口,数组与二维数组,Maven与git的简单应用
+week2: 集合与IO,Maven与git进阶
