@@ -12,5 +12,5 @@ Maven
 -------------------------------------------
 
 ## 项目结构
-week1: JAVA面向对象与异常处理,接口,数组与二维数组,Maven与git的简单应用
-week2: 集合与IO,Maven与git进阶
+week1: JAVA基础：面向对象,数组与二维数组，接口；Maven与git的简单应用
+week2: 常用API与异常处理，集合与IO,Maven与git进阶
