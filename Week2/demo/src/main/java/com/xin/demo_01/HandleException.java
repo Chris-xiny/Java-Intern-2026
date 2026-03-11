@@ -31,6 +31,8 @@ public class HandleException {
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
+        } finally {
+            System.out.println("--------------------------------");// 无论有没有异常finally中的代码都会在方法结束前执行
         }
         System.out.println("执行findcatch");
     }
