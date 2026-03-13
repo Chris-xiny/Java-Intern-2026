@@ -19,3 +19,4 @@ Daily:
     day1:多态
     day2:权限修饰符,代码块
     day3:异常处理,finally的使用
+    day5:自定义异常
