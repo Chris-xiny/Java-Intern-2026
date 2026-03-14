@@ -14,9 +14,19 @@ Note 2:
     finally:
         放在try_catch后,finally{代码},finally里的代码最终都会执行,除了System.exit(0)
 
+Note 3:
+    comparable:作用相当于cpp的重写比较运算符,适用于可以修改的待比较类，该类直接继承接口并重写
+        使用方法:要比较的类重写接口的方法后，直接a.compareTo(b);
+    comparator:与前者相反，当要比较的类我们不好修改源码时，创建一个新的比较类来继承接口并重写
+        使用方法:创建新的类重写接口的方法后，直接new一个新类对象.compare(a,b);
+    both:大于返回正整数，等于返回0，小于返回负整数
+    
+
+
 -------------------------------------------------
 Daily:
     day1:多态
     day2:权限修饰符,代码块
     day3:异常处理,finally的使用
     day5:自定义异常
+    day6:Object类,comparable接口与comparator接口
