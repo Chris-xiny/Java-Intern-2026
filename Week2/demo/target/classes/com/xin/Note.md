@@ -20,7 +20,32 @@ Note 3:
     comparator:与前者相反，当要比较的类我们不好修改源码时，创建一个新的比较类来继承接口并重写
         使用方法:创建新的类重写接口的方法后，直接new一个新类对象.compare(a,b);
     both:大于返回正整数，等于返回0，小于返回负整数
-    
+
+Note 4:
+    Object类:是所有类的根类
+    方法：
+        toString();//返回该对象的字符串表示(eg:Person类的name与age描述该对象)
+        equals();//比较两个对象的地址值是否相等，一般没啥用所以会重写用于比较该类的内容是否相等
+        clone();//需要类实现Cloneable接口去重写clone方法，用于克隆一个内容相同的新对象
+
+Note 5:
+    String:字符串类型，本质是一个被final修饰的byte数组
+    创建:
+        1.String无参构造
+        String();
+        2.根据字符串创建新的字符串
+        String(String original);
+        3.根据char数组创建新的字符串
+        String(char[] value);
+        4.通过使用平台的默认字符集解码指定的byte数组，构造一个新的String
+        String(byte[] bytes);
+            tips:GDK字符集中文占两字节。UTF-8占三字节，而且中文对应的字节一般都是负数
+        5.简化型
+        String s="abc";
+    方法：
+    equals():比较两个字符串是否相等
+    equalsIgnoreCase():比较时无视大小写
+
 
 
 -------------------------------------------------
@@ -30,3 +55,4 @@ Daily:
     day3:异常处理,finally的使用
     day5:自定义异常
     day6:Object类,comparable接口与comparator接口
+    day7:常用API:String
